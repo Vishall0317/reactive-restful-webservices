@@ -29,7 +29,7 @@ public class FluxControllerDemo {
 //        mergeSequentialFlux().subscribe(System.out::println);
 //        zipFlux().subscribe(data-> System.out.println(data.getT1()+" "+ data.getT2()));
 //        zipFluxWithoutTuple().subscribe(System.out::println);
-        sideEffectFlux().subscribe(System.out::println);;
+//        sideEffectFlux().subscribe(System.out::println);;
 
         System.out.println("---------------------------");
         System.out.println("end FluxControllerDemo");

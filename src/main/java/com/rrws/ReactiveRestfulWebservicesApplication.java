@@ -7,16 +7,16 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReactiveRestfulWebservicesApplication implements CommandLineRunner {
+public class ReactiveRestfulWebservicesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ReactiveRestfulWebservicesApplication.class, args);
 	}
 
 
-	@Override
-	public void run(String... args) throws Exception {
-//		MonoControllerDemo.test();
-		FluxControllerDemo.test();
-	}
+//	@Override
+//	public void run(String... args) throws Exception {
+////		MonoControllerDemo.test();
+//		FluxControllerDemo.test();
+//	}
 }
